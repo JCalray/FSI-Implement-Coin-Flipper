@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log('Hi');
 
     // TODO: Add event listener and handler for flip and clear buttons
-let flip = document.addEventListener('button')
-flip.textContent = 'Flip'
+let flip = document.querySelector('#flipButton')
 document.body.append('flip')
-let clear = document.addEventListener('button')
+let clear = document.querySelector('clearButton')
 clear.textContent = 'Clear'
+document.body.append('clear')
 
     // Flip Button Click Handler
         // TODO: Determine flip outcome
