@@ -1,12 +1,20 @@
 // TODO: Declare any global variables we need
-
+let heads = document.querySelector('#heads');
+let headsPercent = document.querySelector('#heads-percent');
+let tails = document.querySelector('#tails');
+let tailsPercent = document.querySelector('#tails-percent');
 
 document.addEventListener('DOMContentLoaded', function () {
     // This is just a sanity check to make sure your JavaScript script is getting loaded
     // You can remove it once you see it in your browser console in the developer tools
-    console.log('Hi')
+    console.log('Hi');
 
     // TODO: Add event listener and handler for flip and clear buttons
+let flip = document.addEventListener('button')
+flip.textContent = 'Flip'
+document.body.append('flip')
+let clear = document.addEventListener('button')
+clear.textContent = 'Clear'
 
     // Flip Button Click Handler
         // TODO: Determine flip outcome
